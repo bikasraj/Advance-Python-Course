@@ -1,1 +1,27 @@
+0 .OS Module in Python with Examples
+1 .Functional Programming in Python
+2 .Metaprogramming with Metaclasses in Python
+3 .Abstract Classes in Python
+4 .Multithreading in Python | Set 1
+5 .Multithreading in Python | Set 2 (Synchronization)
+6 .Multiprocessing in Python | Set 1 (Introduction)
+7 .Multiprocessing in Python | Set 2 (Communication between processes)
+8 .Socket Programming in Python
+9 .Socket Programming with Multi-threading in Python
+----------------------------------------------------------------------------
+1 . Functional Programming in Python 
 
+#create function
+def pure_func(List):
+	New_List = []
+	for i in List:
+		New_List.append(i**2)
+		
+	return New_List
+	
+# Driver's code
+Original_List = [1, 2, 3, 4]
+Modified_List = pure_func(Original_List)
+#print lists
+print("Original List:", Original_List)
+print("Modified List:", Modified_List)
